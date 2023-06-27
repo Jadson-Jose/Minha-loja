@@ -12,4 +12,4 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///minhaloja.db"
 db.init_app(app)
 
 
-from loja import rotas
+from loja.admin import rotas
